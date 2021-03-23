@@ -3,7 +3,7 @@
 // // // console.log('bài 1.1: ' + 'var khai báo biến có thể sử dụng ở trong phạm vi funtion ' + '\br' + 'const được sử dụng khai báo hằng số ');
 // // // console.log('bài 1.2: ' + 'let khai báo biến có thể truy cập ở trong block ' + '\br' + 'var khai báo biến có thể sử dụng ở trong phạm vi funtion  ');
 // // // console.log('bài 1.3' + 'let khai báo biến có thể truy cập ở trong block' + '\br' + 'const được sử dụng khai báo hằng số');
-// // // console.log('bài 1.4 ' + 'var su dụng trong function-cope ' + 'let sử dụng truy cập trong block-scope' + 'const truy cập hắng số ');
+// // // console.log('bài 1.4 ' + 'var su dụng trong block-scope ' + 'let sử dụng truy cập trong block-scope' + 'const truy cập hắng số ');
 
 
 
@@ -20,14 +20,14 @@
 // //     console.log(i);
 // // }
 
-// // console.log('Bài 3.2 : ');
-// // var x = prompt('Mời nhập số : ');
-// // var i = 0;
-// // do {
-// //     console.log(i);
-// //     i++;
-// // }
-// // while (i > 0 && i < x)
+// console.log('Bài 3.2 : ');
+// var x = prompt('Mời nhập số : ');
+// var i = 0;
+// do {
+//     console.log(i);
+//     i++;
+// }
+// while (i > 0 && i < x)
 
 // console.log('Bài 3.3 : ');
 // var x = prompt(' Mới bạn nhập sô : ');
@@ -68,7 +68,7 @@
 // var n = prompt('Nhap n:');
 // var gt = 1;
 // for (i = 1; i <= n; i++) {
-//     gt = gt * i;
+//     gt*=i;
 // }
 // console.log(gt);
 
@@ -107,7 +107,7 @@
 // if (x % 2 == 0) {
 //     console.log('Đây là số chẵn');
 // } else {
-//     console.log(' đây là số lẽ');
+//     console.log(' đây là số lẻ ');
 // }
 
 
