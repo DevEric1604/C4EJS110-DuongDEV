@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 980px;
+    margin: auto;
+    height: auto;
+    font-family: tahoma;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#header {
+    width: 980px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    background-color: #ccc;
+    padding: 5 5 5 5px red;
+}
+
+#header img {
+    width: 50%;
+    height: 100px;
+    margin-top: 15px;
+}
+
+#menu ul li {
+    list-style: none;
+    line-height: 40px;
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+.chuot {
+    transition: 0.4s;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.chuot:hover {
+    background-color: #00868B;
+    color: #EEA200;
+    padding: 30px 35px;
+}
+
+#left {
+    width: 300px;
+    height: 880px;
+    float: left;
+    border: 3px solid #ccc;
+}
+
+.list {
+    width: 300px;
+    height: 200px;
+}
+
+.thuvienvideo {
+    width: 295px;
+    height: 50px;
+    background-color: #37648c;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    font-variant: small-caps;
+}
+
+.thuvienvideo a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 25px;
+}
+
+.thuvienvideo a:hover {
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #e2b630;
+}
+
+#left ul li {
+    list-style-position: inside;
+    padding: left;
+    color: black;
+    line-height: 30px;
+    font-variant: small-caps;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+#left ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.chuot-2:hover {
+    transition: 0.4s;
+    margin: 0 15px;
+    padding: 0 15px;
+    background-color: #00868B;
+    color: white;
+}
+
+#right {
+    width: 680px;
+    height: 880px;
+    float: left;
+    border: 3px solid #ccc;
+}
+
+#right h3 a {
+    font-variant: small-caps;
+    text-decoration: none;
+    font-size: 20px;
+    color: orange;
+}
+
+#right h3 a:hover {
+    color: green;
+    padding: 20px 25px;
+}
+
+.tintuc {
+    font-variant: small-caps;
+}
+
+.pan {
+    float: left;
+    width: 680px;
+    margin-top: 17px;
+}
+
+.anh {
+    float: left;
+    margin-right: 24px;
+}
+
+#footer {
+    width: 980px;
+    height: 80px;
+    background-color: #16304c;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
