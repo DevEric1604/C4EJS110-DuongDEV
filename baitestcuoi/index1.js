@@ -1,12 +1,12 @@
 // Bài 1.a
 
 
+
 function findOppositeNumber() {
     var n = prompt('mời nhập số n ');
-    n = n > 3 && n < 20;
-    var inputNumber = n;
-    var findOppositeNumber = n + 5;
-    alert('số đối diện là ' + findOppositeNumber);
+    var kq = n + 5;
+    alert('số đối diện là :  ' + kq);
+
 
 }
 

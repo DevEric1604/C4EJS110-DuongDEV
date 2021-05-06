@@ -7,7 +7,7 @@ function playgame() {
     if (input == kq) {
         alert('Chúc Mừng bạn đã trúng thưởng ');
     } else {
-        alert('số khác  ' + kq + ' chúc bạn may mắn lần sau');
+        alert('Số trúng thưởng là :  ' + kq + ' chúc bạn may mắn lần sau');
 
     }
 
