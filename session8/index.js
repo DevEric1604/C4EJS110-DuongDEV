@@ -15,30 +15,31 @@
 
 
 //bai2
-// function time() {
+function timer() {
 
-//     let time = document.getElementById("time");
-//     let start = document.getElementById("start");
-//     let stop = document.getElementById("stop");
-//     let display = document.getElementById("display");
-//     start.addEventListener("click", () => {
+    let time = document.getElementById("time");
+    let start = document.getElementById("start");
+    let stop = document.getElementById("stop");
+    let display = document.getElementById("display");
 
-//         display.innerText = time.value;
-//         let time1 = setInterval(() => {
-//             display.innerText--;
-//         }, 1000);
-//         setTimeout(() => {
-//             clearInterval(time1);
-//             display.innerText = "Time's up";
-//         }, ((time.value) * 1000 + 500));
-//         stop.addEventListener("click", () => {
-//             clearInterval(time1);
-//             display.innerText = "Stopped";
-//         })
-//     })
+    start.addEventListener("click", () => {
 
-// }
-// time();
+        display.innerText = time.value;
+        let time1 = setInterval(() => {
+            display.innerText--;
+        }, 1000);
+        setTimeout(() => {
+            clearInterval(time1);
+            display.innerText = "Time's up";
+        }, ((time.value) * 1000 + 500));
+        stop.addEventListener("click", () => {
+            clearInterval(time1);
+            display.innerText = "Stopped";
+        })
+    })
+
+}
+timer();
 
 // function random(){
 //     const quesdata = [{
